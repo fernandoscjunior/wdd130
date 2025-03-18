@@ -30,3 +30,15 @@ footer {
     border-top: 2px;
     text-align: center;
 }
+
+nav { 
+    color: antiquewhite;
+}
+
+nav a {
+    color: beige;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
