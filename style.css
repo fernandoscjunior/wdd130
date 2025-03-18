@@ -3,11 +3,11 @@ main {
 }
 
 aside {
-    width: 150px;
-    margin: 10px;
+    width: 400px;
+    margin: 5px;
     border: 1px;
     padding: 5px;
-    background-color: salmon;
+    background-color: green;
     color: aliceblue;
 }
 
