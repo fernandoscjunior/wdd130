@@ -1,4 +1,9 @@
 /* Elder Costa | WDD 130*/
+:root {
+    --color: black;
+}
+
+
 
 main {
     max-width: 840px;
@@ -34,12 +39,12 @@ footer {
 }
 
 nav { 
-    color: darkslategray;
+    color: var(--color);
     border: 1px;
 }
 
 nav a {
-    color: black;
+    color: var(--color);
     margin: 3px;
 }
 
