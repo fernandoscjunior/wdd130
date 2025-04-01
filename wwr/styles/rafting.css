@@ -45,13 +45,14 @@ p {
 header {
     display: grid;
     grid-template-columns: 1fr 3fr; /* Divide o header em duas colunas */
-    align-items: center; /* Alinha os itens verticalmente */
-    padding: 10px; /* Adiciona um padding para melhorar a aparência */
+    align-items: top; /* Alinha os itens verticalmente */
+    padding: 15px; /* Adiciona um padding para melhorar a aparência */
+    border-bottom: #000E14 1px;
   }
   
   .logo {
     grid-column: 1; /* Coloca a logo na primeira coluna */
-    width: 200px;
+    width: 150px;
     height: auto;
   }
   
