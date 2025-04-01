@@ -44,18 +44,32 @@ nav ul li a {
 }
 
 .hero {
+    display: grid;
     padding: 40px;
     text-align: center;
 }
 
-article, section {
+article {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
 }
 
-article img, section img {
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+article img {
+    width: 100px;
+    height: 100px;
+    background-color: #CE3B4F;
+}
+
+section img {
     width: 100px;
     height: 100px;
     background-color: #CE3B4F;
