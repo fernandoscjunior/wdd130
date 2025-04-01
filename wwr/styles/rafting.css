@@ -59,7 +59,7 @@ section {
 .history img {
     width: 100px;
     height: 100px;
-    background-color: #ccc;
+    background-color: #CE3B4F;
 }
 
 .gallery {
@@ -75,14 +75,18 @@ section {
 .gallery img {
     width: 100px;
     height: 100px;
-    background-color: #ddd;
+    background-color: var(--secondary-color);
 }
 
 footer {
-    background-color: #7D5BA6;
-    color: white;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
     text-align: center;
     padding: 20px;
     margin-top: 20px;
 }
 
+footer img {
+    width: 20px;
+    height: auto;
+}
