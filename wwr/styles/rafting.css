@@ -65,14 +65,14 @@ section {
 }
 
 article img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: auto;
     background-color: var(--secondary-color);
 }
 
 section img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: auto;
     background-color: var(--secondary-color);
 }
 
@@ -87,7 +87,7 @@ section img {
 }
 
 .gallery img {
-    width: 200px;
+    width: 225px;
     height: auto;
     background-color: var(--secondary-color);
 }
