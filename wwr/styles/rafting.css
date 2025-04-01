@@ -51,6 +51,8 @@ header {
   
   .logo {
     grid-column: 1; /* Coloca a logo na primeira coluna */
+    width: 200px;
+    height: auto;
   }
   
   .menu {
