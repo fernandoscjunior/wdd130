@@ -41,3 +41,36 @@ p {
     position: absolute;
     opacity: 70%;
 }
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* Divide o header em duas colunas */
+    align-items: center; /* Alinha os itens verticalmente */
+    padding: 20px; /* Adiciona um padding para melhorar a aparência */
+  }
+  
+  .logo {
+    grid-column: 1; /* Coloca a logo na primeira coluna */
+  }
+  
+  .menu {
+    grid-column: 2; /* Coloca o menu na segunda coluna */
+    text-align: right; /* Alinha o menu à direita */
+  }
+
+  .menu ul {
+    display: flex; /* Define o layout como flexbox */
+    justify-content: space-between; /* Distribui os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente */
+    list-style: none; /* Remove a formatação de lista */
+    margin: 0; /* Remove a margem */
+    padding: 0; /* Remove o padding */
+  }
+  
+  .menu li {
+    margin-right: 20px; /* Adiciona uma margem entre os itens */
+  }
+  
+  .menu li:last-child {
+    margin-right: 0; /* Remove a margem do último item */
+  }
