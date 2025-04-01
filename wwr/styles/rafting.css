@@ -30,23 +30,23 @@ header img {
 
 header nav {
     display: flex;
-    justify-content: end;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .intro {
     display: grid;
     grid-template-columns: 1fr, 1fr, 1fr;
     grid-gap: 10px;
+    
 }
 
 .intro h1 {
     grid-column: 1/4;
     grid-row: 1/2;
-    align-self: center;
 }
 
 .intro p {
-    align-self: left;
     grid-column: 1/3;
     grid-row: 2/3;
 }
