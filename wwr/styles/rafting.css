@@ -6,85 +6,83 @@
 
 }
 
-h1 {
-    color: var(--accent2-color);
-    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-h2 {
-    color: var(--accent1-color);
-   
-}
-
-p {
-    color: var(--secondary-color);
-}
-
-.icons a{
-    text-decoration: none;
-}
-
-.hero {
-    position: absolute;
-}
-
-.hero img {
-    display: block;
-    width: 200px;
-    height: auto;
-    float: right;
-}
-
-.hero h1 {
-    position: absolute;
-    text-align: center;
-}
-
-.hero article {
-    position: absolute;
-    opacity: 70%;
+body {
+    background-color: var(--primary-color);
 }
 
 header {
-    display: grid;
-    grid-template-columns: 1fr 3fr; 
-    align-items: top; 
-    padding: 15px; 
-  }
-  
-  .logo {
-    grid-column: 1; 
-    width: 100px;
-    height: auto;
-    align-self: center; /**/
-  }
-  
-  .menu {
-    grid-column: 2; 
-    text-align: center; 
-  }
-
-  .menu ul {
-    display: flex; 
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: center; 
-    list-style: none; 
-    margin: 0; 
-    padding: 0; 
-    border-bottom: #000E14 1px;
-  }
-  
-  .menu li {
-    margin-right: 5px; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
-  }
-  
-  .menu li:last-child {
-    margin-right: 0; 
-  }
-
-.adventure img {
-    width: 350px;
-    height: auto;
+    background-color: var(--accent1-color);
+    padding: 20px;
 }
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.white-water-rafting .content, 
+.history .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.white-water-rafting img, 
+.history img {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.gallery .image {
+    text-align: center;
+}
+
+.gallery img {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+}
+
+footer {
+    background-color: #7D5BA6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
