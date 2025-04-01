@@ -22,7 +22,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: var(--accent1-color);
-    border-bottom: #000E14 1px;
+    border-bottom: var(--accent2-color) 1px;
     /*padding: 20px;*/
 }
 
@@ -66,13 +66,13 @@ section {
 article img {
     width: 100px;
     height: 100px;
-    background-color: #CE3B4F;
+    background-color: var(--secondary-color);
 }
 
 section img {
     width: 100px;
     height: 100px;
-    background-color: #CE3B4F;
+    background-color: var(--secondary-color);
 }
 
 .gallery {
@@ -86,8 +86,8 @@ section img {
 }
 
 .gallery img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: auto;
     background-color: var(--secondary-color);
 }
 
