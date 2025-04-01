@@ -44,36 +44,39 @@ p {
 
 header {
     display: grid;
-    grid-template-columns: 1fr 3fr; /* Divide o header em duas colunas */
-    align-items: top; /* Alinha os itens verticalmente */
-    padding: 15px; /* Adiciona um padding para melhorar a aparência */
-    border-bottom: #000E14 1px;
+    grid-template-columns: 1fr 3fr; 
+    align-items: top; 
+    padding: 15px; 
   }
   
   .logo {
-    grid-column: 1; /* Coloca a logo na primeira coluna */
-    width: 150px;
+    grid-column: 1; 
+    width: 100px;
     height: auto;
+    align-self: center; /**/
   }
   
   .menu {
-    grid-column: 2; /* Coloca o menu na segunda coluna */
-    text-align: right; /* Alinha o menu à direita */
+    grid-column: 2; 
+    text-align: right; 
   }
 
   .menu ul {
-    display: flex; /* Define o layout como flexbox */
-    justify-content: space-between; /* Distribui os itens horizontalmente */
-    align-items: center; /* Alinha os itens verticalmente */
-    list-style: none; /* Remove a formatação de lista */
-    margin: 0; /* Remove a margem */
-    padding: 0; /* Remove o padding */
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    border-bottom: #000E14 1px;
   }
   
   .menu li {
-    margin-right: 10px; /* Adiciona uma margem entre os itens */
+    margin-right: 10px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
   }
   
   .menu li:last-child {
-    margin-right: 0; /* Remove a margem do último item */
+    margin-right: 0; 
   }
