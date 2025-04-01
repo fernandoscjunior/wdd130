@@ -46,7 +46,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 3fr; /* Divide o header em duas colunas */
     align-items: center; /* Alinha os itens verticalmente */
-    padding: 20px; /* Adiciona um padding para melhorar a aparência */
+    padding: 10px; /* Adiciona um padding para melhorar a aparência */
   }
   
   .logo {
@@ -68,7 +68,7 @@ header {
   }
   
   .menu li {
-    margin-right: 20px; /* Adiciona uma margem entre os itens */
+    margin-right: 10px; /* Adiciona uma margem entre os itens */
   }
   
   .menu li:last-child {
