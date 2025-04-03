@@ -74,7 +74,7 @@ nav ul {
 }
 
 .intro img{
-    width: 150px;
+    width: 250px;
     height: auto;
 }
 
@@ -97,7 +97,7 @@ nav ul {
 }
 
 .image-text img {
-    width: 100px;
+    width: 200px;
     height: auto;
   }
 
@@ -106,11 +106,12 @@ nav ul {
 
 .gallery{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .gallery img {
-    width: 350px;
+    width: 300px;
     height: auto;
 }
 
