@@ -96,7 +96,7 @@ article {
     margin: 0;
 }
 
-.image-text img {
+article img {
     width: 200px;
     height: auto;
   }
