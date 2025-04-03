@@ -76,23 +76,40 @@ nav ul {
     height: auto;
 }
 
+.image_text {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
 
+.image-text h1 {
+    margin: 0;
+}
 
-
+.image-text img {
+    width: 100px;
+    height: auto;
+  }
 
 
 footer {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
     padding: 10px;
+    justify-content: space-between;
     background-color: var(--accent1-color);
     color: var(--primary-color);
 }
 
+footer p {
+    text-align: center;
+    flex-grow: 1; 
+}
+
 footer div {
-    align-items: end;
+    display: flex;
+    gap: 10px;
 }
 
 footer img {
