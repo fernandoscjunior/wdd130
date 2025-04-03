@@ -79,12 +79,12 @@ nav ul {
 }
 
 
-
-
-
-
-
-
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding: 20px;
+}
 
 .image_text {
     display: flex;
@@ -101,8 +101,9 @@ nav ul {
     height: auto;
   }
 
-
-
+.adventure h2 {
+    text-align: center;
+}
 
 .gallery{
     display: grid;
@@ -114,7 +115,6 @@ nav ul {
     width: 300px;
     height: auto;
 }
-
 
 footer {
     display: flex;
