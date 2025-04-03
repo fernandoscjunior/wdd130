@@ -19,22 +19,20 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: 150px auto;
-    grid-gap: 20px;
+    grid-template-columns: 120px auto;
 }
 
 header img {
     width: 125px;
     height: auto;
-    padding-right: 10px;
 }
 
 header nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: end;
-    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
     background-color: var(--accent1-color);
     color: var(--primary-color);
 }
@@ -55,8 +53,10 @@ nav ul {
   }
 
 .intro {
-    display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     grid-gap: 10px;
     padding: 15px;
     margin: 15px;
