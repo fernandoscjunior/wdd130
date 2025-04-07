@@ -16,7 +16,7 @@ body {
     font-family: Merriweather, Georgia, serif;
     font-size: 1.2em;
     color: #333;
-    background: #fff;
+    background: var(--primary-color);
   }
 
 header {
@@ -62,9 +62,9 @@ form {
   width: 650px;
   margin: 0 auto;
   padding: 1rem;
-  border: 1px solid rgb(0 0 0 / 0.1);
+  border: 1px solid var(--accent2-color);
   border-radius: 0.5rem;
-  background-color: #eee;
+  background-color: var(--primary-color);
   display: grid;
 }
 
@@ -72,13 +72,13 @@ fieldset {
   display: grid;
   grid-gap: .5rem;
   margin: 1rem;
-  border: 1px solid rgb(0 0 0 / 0.2);
+  border: 1px solid var(--accent2-color);
   padding: 1rem;
 }
 
 legend {
   padding: 0.5rem;
-  color: navy;
+  color: var(--accent1-color);
   font-size: 1.3em;
 }
 
@@ -104,8 +104,8 @@ input[type="checkbox"] {
 
 button {
   margin: 1rem;
-  background-color: navy;
-  color: #fff;
+  background-color: var(--accent1-color);
+  color: var(--primary-color);
   border: none;
   border-radius: .5rem;
   padding: .75rem;
@@ -113,7 +113,7 @@ button {
 }
 
 button:hover {
-  background-color: darkgreen;
+  background-color: var(--accent1-color);
 }
 
 footer {
@@ -139,4 +139,9 @@ footer div {
 footer img {
     width: 25px;
     height: auto;
+}
+
+iframe {
+  width: 200px;
+  height: auto;
 }
