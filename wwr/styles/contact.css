@@ -59,6 +59,10 @@ nav ul {
   display: flex;
   justify-content: space-around;
   padding: 10px;
+  background-color: var(--accent1-color);
+  color: var(--primary-color);
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .employees img {
