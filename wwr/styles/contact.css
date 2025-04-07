@@ -55,6 +55,11 @@ nav ul {
     text-decoration: none;
   }
 
+.contact-info {
+  display: flex;
+}
+
+
 .employees {
   display: flex;
   justify-content: space-around;
@@ -74,6 +79,7 @@ form {
   border-radius: 0.5rem;
   background-color: var(--primary-color);
   display: grid;
+  margin-bottom: 10px;
 }
 
 fieldset {
