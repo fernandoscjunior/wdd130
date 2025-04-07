@@ -55,8 +55,16 @@ nav ul {
     text-decoration: none;
   }
 
+.employees {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
 
-
+.employees img {
+    width: 200px;
+    height: auto;
+}
 
 form {
   width: 650px;
