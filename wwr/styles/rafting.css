@@ -3,7 +3,6 @@
     --secondary-color:#CE3B4F;
     --accent1-color:#30638E;
     --accent2-color:#000E14;
-
 }
 
 * {
@@ -139,4 +138,57 @@ footer div {
 footer img {
     width: 25px;
     height: auto;
+}
+
+form {
+  width: 650px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid var(--accent2-color);
+  border-radius: 0.5rem;
+  background-color: var(--primary-color);
+  display: grid;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: .5rem;
+  margin: 1rem;
+  border: 1px solid var(--accent2-color);
+  padding: 1rem;
+}
+
+legend {
+  padding: 0.5rem;
+  color: var(--accent1-color);
+  font-size: 1.3em;
+}
+
+label, input, button {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+label {
+  text-align: right;
+  padding-right: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+button {
+  margin: 1rem;
+  background-color: var(--accent1-color);
+  color: var(--primary-color);
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: var(--accent1-color);
 }
