@@ -192,3 +192,8 @@ button {
 button:hover {
   background-color: var(--accent1-color);
 }
+
+.homeintro h1 {
+    color: var(--primary-color);
+    position: absolute;
+}
