@@ -77,6 +77,12 @@ nav ul {
     height: auto;
 }
 
+.homeintro {
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+}
+
 
 article {
     display: grid;
