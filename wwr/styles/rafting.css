@@ -131,6 +131,10 @@ footer {
     color: var(--primary-color);
 }
 
+footer a {
+  text-decoration: none;
+}
+
 footer p {
     text-align: center;
     flex-grow: 1; 
