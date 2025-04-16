@@ -261,13 +261,13 @@ button:hover {
 }
 
 .cta {
-  background-color: #ff9800;
+  background-color: var(--secondary-color);
   padding: 15px;
   text-align: center;
   margin: 20px 0;
 }
 .cta a {
-  color: white;
+  color: var(--primary-color);
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
@@ -281,9 +281,9 @@ button:hover {
 .trip {
   width: 30%;
   margin: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid var(--primary-color);
   padding: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px var(--accent2-color);
 }
 .trip img {
   width: 100%;
@@ -295,13 +295,13 @@ table {
   border-collapse: collapse;
 }
 table, th, td {
-  border: 1px solid #ddd;
+  border: 1px solid var(--primary-color);
 }
 th, td {
   padding: 10px;
   text-align: center;
 }
 th {
-  background-color: #4CAF50;
-  color: white;
+  background-color: var(--accent1-color);
+  color: var(--primary-color);
 }
