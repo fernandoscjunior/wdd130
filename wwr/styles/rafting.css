@@ -244,3 +244,13 @@ button:hover {
   transform: scale(1.1);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
+.call {
+  text-align: center;
+  background-color: var(--accent1-color);
+}
+
+.call p {
+  text-decoration: none;
+  color: var(--primary-color);
+}
